@@ -51,13 +51,14 @@ body {
 
 .second-hand {
   background-color: red;
+  /*width: 50%;*/
 }
 
 .min-hand {
-  background-color: yellow;
 }
 
 .hour-hand {
+  width: 30%;
 }
 
 .num {
