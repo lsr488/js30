@@ -43,4 +43,8 @@ body {
   background: black;
   position: absolute;
   top: 50%;
+  transform-origin: 100%; /* pivot around origin (middle of clock face) */
+  transform: rotate(90deg); /* start at noon */
+  transition: all 0.5s; /* hands appear to "tick" */
+  transition-timing-function: ease-in-out; /* refine "tick" appearance */
 }
