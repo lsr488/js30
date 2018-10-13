@@ -59,3 +59,27 @@ body {
 
 .hour-hand {
 }
+
+.num {
+  width: 50%;
+  height: 6px;
+  font-size: 2em;
+  color: white;
+  position: absolute;
+}
+
+.num1 {
+  transform: translate(75px, 0px);
+}
+
+.num3 {
+  transform: translate(210px, 130px);
+}
+
+.num6 {
+  transform: translate(75px, 260px);
+}
+
+.num9 {
+  transform: translate(-55px, 130px);
+}
